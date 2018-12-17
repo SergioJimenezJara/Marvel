@@ -4,6 +4,22 @@
    Author's custom styles
    ========================================================================== */
 
+.superheroData{
+    display:none;
+}
+
+.superhero {
+    text-align: center;
+    border: 2px solid #000000;
+    padding-bottom: 30px; 
+    background-color:#666666;
+}
+
+.superhero:hover{
+     background-color:red;
+     border: 50px;
+  
+}
 
 
 
