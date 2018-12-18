@@ -1,0 +1,18 @@
+[{
+  "heroName": "Capitan America",
+  "pic": "",
+  "history": "El Capitán América es uno de los superhéroes más legendarios de la editorial Marvel Comics. Los autores Jack Kirby y Joe Simon lo crearon cuando corría el año 1941, un año marcado a fuego por la entrada de los Estados Unidos a la disputa de la Segunda Guerra Mundial. Y ni las historietas se salvaron de las implicancias de este trascendental conflicto bélico del siglo pasado y por ello el personaje fue delineado con un marcado perfil patriótico y por supuesto anti nazi.",
+  "powers": ["Fuerza sobrehumana", "Agilidad", "Velocidad", "Acrobata"]
+},
+{
+  "heroName": "Thor",
+  "pic": "",
+  "history": "Thor es hijo de Odín (rey de Asgard) y hermano de Loki (con quien tiene una eterna rivalidad), y es uno de los seres más poderosos de la tierra, de ahí el título del cómic, “The Mighty Thor”, que es uno de los más antiguos de la editorial Marvel, con más de 600 números. Además de tener muchos poderes, Thor encima tiene a su martillo Möljnir",
+  "powers": ["Fuerza sobrehumana", "Mjölnir", "Vuelo", "Lanzar rayos"]
+},
+{
+  "heroName": "Iron Man",
+  "pic": "",
+  "history": "El Hombre de Hierro debuta en “¡El nacimiento de Iron Man!”, un relato de 13 páginas publicado en TOS #39, un cómic habitual de 12 centavos que sale a la venta el 10 de diciembre de 1962, con fecha de portada marzo de 1963, en el que se nos presenta como no podía ser de otra manera el origen del personaje junto con dos historias de suspense. En las primeras páginas del relato vemos a Tony Stark tanto en su vertiente de ingeniero (mostrando a unos militares el gran poder de unos transistores miniaturizados de su invención) como en la de playboy (en escenas de playa y vida social). A diferencia de Bruce Wayne, el alter ego de Batman, y de acuerdo con el relato “Anthony Stark se siente tan a gusto en un laboratorio como en la alta sociedad”.",
+  "powers": ["Fuerza sobrehumana", "Rayos de manos", "Uni-beam", "Genio"]
+}]

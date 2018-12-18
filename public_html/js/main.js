@@ -1,44 +1,34 @@
 $(document).ready(function () {
-    // show the data onclick
-    
-    $("#captain").click(function () {     
-        if ($("#captainData").is(':hidden')) {
+   
+   // must read the json with the superheroes
+   
+   
+   // create a list with the superheroes names 
+   list= ["captain","iron","thor"];
+   
+   
+   // must create as divs (boxes with the superheroes) as the json's superheroes has
+   // OR create manually the divs (easy way lol)
+   
+   
+   // fill the divs with the json content
+   
+   
+   // function to show data of the superheroes 
+   $.each(list, function(i, value){
+       $("#"+value).click(function () {     
+        if ($("#"+value+"Data").is(':hidden')) {
             $(".superhero").css("background-color","#666666");
-            $("#captain").css("background-color","red");
+            $("#"+value).css("background-color","red");
             $(".superheroData").slideUp("slow");
-            $("#captainData").slideDown("slow");
+            $("#"+value+"Data").slideDown("slow");
         } else {
-            $("#captainData").slideUp("slow");
-            $("#captain").css("background-color","#666666");
-            
+            $("#"+value+"Data").slideUp("slow");
+            $("#"+value).css("background-color","#666666");          
         }
     });
-
-    $("#iron").click(function () {
-        if ($("#ironData").is(':hidden')) {
-            $(".superhero").css("background-color","#666666");
-            $("#iron").css("background-color","red");
-            
-            $(".superheroData").slideUp("slow");
-            $("#ironData").slideDown("slow");
-        } else {
-            $("#ironData").slideUp("slow");
-            $("#iron").css("background-color","#666666");
-        }
-    });
-
-    $("#thor").click(function () {
-        if ($("#thorData").is(':hidden')) {
-            $(".superhero").css("background-color","#666666");
-            $("#thor").css("background-color","red");
-            $(".superheroData").slideUp("slow");
-            $("#thorData").slideDown("slow");
-        } else {
-            $("#thorData").slideUp("slow");
-            $("#thor").css("background-color","#666666");
-        }
-    });
-    
+   });
+        
    
 });
 

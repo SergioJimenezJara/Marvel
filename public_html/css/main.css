@@ -3,7 +3,46 @@
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+   
+   body {
+	background-image: url(../IMG/marvel1AMP.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+#barranavegacion{
+	background-color: red;
+}
+#logo {
+	height: 30px;
+	width: 30px;
+}
+#drop {
+	background-color: red;
+}
+#central {
+	color: white;
+	background-color:rgba(255, 0, 0, 0.555);
+	
+}
 
+#imagen {
+	top: 100px;
+	height: 300px;
+}
+
+.my-6{
+	margin-top:90px;
+	margin-bottom:90px;
+}
+.img1 {
+	background-image: url(../img/capitanamerica.jpg);
+	height: 100px;
+}
+
+/*
+	Superheros data
+*/
 .superheroData{
     display:none;
 }
