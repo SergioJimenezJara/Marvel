@@ -1,11 +1,10 @@
 $(document).ready(function () {
 	
     var superHeroTags;
-    
   // read the json with the superheroes
-    $.getJSON('../js/avengers.json', function (data) {              // no esta probada, no me funciona leer en local, me lo bloquea chrome
+    $.getJSON('../js/avengers.json', function (data) {              // no esta probada, posible errores
         // iterate and append the data
-       /*  
+       
         $.each(data, function(i, obj) {
             // create a list with the tags    
             superHeroTags.push(obj.tag);
@@ -15,11 +14,11 @@ $(document).ready(function () {
             $.("."+obj.tag+"History").append(obj.history+"");
             
             // read multiple powers
-            $.each(obj.powers, function(i, power) {
+            $.each(obj.powers, function(i, power){
                 $.("."+obj.tag+"Powers").append(power+" ");
             });        
             
-        });*/
+        });
     });
     
    superHeroTags= ["fantastic","invisible","torch","thing"];        // cuando funcione lo de leer del json, suprimir esta linea
