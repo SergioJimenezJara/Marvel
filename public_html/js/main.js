@@ -1,30 +1,27 @@
 $(document).ready(function () {
-   
-   // must read the json with the superheroes
-   
+	
+   // read the json with the superheroes
+   $.getJSON( "../json/avengers.json", function( result ) {
+       alert();
+		
+	});
    
    // create a list with the superheroes names 
-   list= ["captain","iron","thor"];
-   
-   
-   // must create as divs (boxes with the superheroes) as the json's superheroes has
-   // OR create manually the divs (easy way lol)
-   
+   superheroNames= ["fantastic","invisible","torch","thing"];   
    
    // fill the divs with the json content
    
-   
    // function to show data of the superheroes 
-   $.each(list, function(i, value){
+   $.each(superheroNames, function(i, value){
        $("#"+value).click(function () {     
         if ($("#"+value+"Data").is(':hidden')) {
-            $(".superhero").css("background-color","#666666");
-            $("#"+value).css("background-color","red");
+            $(".superhero").css("background-color","#484848");
+            $("#"+value).css("background-color","#666666");
             $(".superheroData").slideUp("slow");
             $("#"+value+"Data").slideDown("slow");
         } else {
             $("#"+value+"Data").slideUp("slow");
-            $("#"+value).css("background-color","#666666");          
+            $("#"+value).css("background-color","#484848");          
         }
     });
    });

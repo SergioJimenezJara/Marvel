@@ -16,9 +16,10 @@
         <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.bundle.min.js" integrity="sha384-pjaaA8dDz/5BgdFUPX6M/9SUZv4d12SUPF0axWc+VRZkx5xU3daN+lYb49+Ax+Tl" crossorigin="anonymous"></script>
+         <script src="js/main.js"></script>
     </head>
     <body>
-        <script src="js/main.js"></script>
+       
         <!--Barra de navegacion-->
         <header class="navbar navbar-expand-md navbar-light fixed-top" id="barranavegacion">
             <a class="nav-link active" href="index.html"><img id="logo"src="IMG/marvel.ico" alt="Logo" class="d-inline-block align-top"></a>
@@ -33,9 +34,10 @@
                         <a class="nav-link font-weight-bold dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Personajes</a>
                         <!--contenido desplegable-->
                         <div id="drop" class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item font-weight-bold" href="#">Capitan America</a>
-                            <a class="dropdown-item font-weight-bold" href="#">Thor</a>
-                            <a class="dropdown-item font-weight-bold" href="#">Iron Man</a>
+                            <a class="dropdown-item font-weight-bold" href="#">Mr Fantastic</a>
+                            <a class="dropdown-item font-weight-bold" href="#">Invisible Woman</a>
+                            <a class="dropdown-item font-weight-bold" href="#">Human Torch</a>
+							<a class="dropdown-item font-weight-bold" href="#">The Thing</a>
                         </div>
                     </li>
                     <!--link historia-->
@@ -142,20 +144,26 @@
                 <div class="container " style="background-color:red">
                     <!-- Example row of columns -->
                     <div class="row" style="background-color:coral">
-                        <div class="col-sm-4 superhero " id="captain" >
-                            <h2 class="text-center">Captain America</h2>
-                            <img src="img/captainamerica.jpg" class="" alt="Responsive image">
+                        <div class="col-sm-3 superhero " id="fantastic" >
+                            <div class="superName"><h2 class="text-center">Mr Fantastico</h2></div>
+                            <img src="img/fantastic.jpg" class="" alt="mx-auto">
                             <!--<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>-->
 
                         </div>
-                        <div class="col-sm-4  superhero" id="iron" >
-                            <h2 class="text-center">Iron Man</h2>
-                            <img src="img/ironman.jpg" class="rounded" alt="Responsive image">
+						<div class="col-sm-3 superhero " id="invisible" >
+                            <div class="superName"><h2 class="text-center">Mujer invisible</h2></div>
+                            <img src="img/invisible.jpg" class="" alt="mx-auto">
+                            <!--<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>-->
+
+                        </div>
+                        <div class="col-sm-3  superhero" id="torch" >
+                            <div class="superName"><h2 class="text-center">Antorcha humana</h2></div>
+                            <img src="img/torch.jpg" class="rounded" alt="mx-auto">
                             <!--<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>-->                  
                         </div>
-                        <div class="col-sm-4  superhero" id="thor" >
-                            <h2 class="text-center">Thor</h2>
-                            <img src="img/thor.jpg" class="rounded" alt="Responsive image">
+                        <div class="col-sm-3  superhero" id="thing" >
+                            <div class="superName"><h2 class="text-center">La cosa</h2></div>
+                            <img src="img/thing.jpg" class="rounded" alt="mx-auto">
                             <!--<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>-->
                         </div>
 
@@ -165,22 +173,27 @@
 
 
 
-                    <div class="row" style="background-color:coral">
+                    <div class="row">
 
-                        <div class="col-sm-12 superheroData " id="captainData" style="background-color:red">
-                            <h2>captain!</h2>
-                            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-                            <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+                        <div class="col-sm-12 superheroData" id="fantasticData" >
+                            <h2 id="fantasticName">Nombre: </h2>
+							<p id="fantasticPowers">Poderes: </p>
+                            <p id="fantasticHistory">Historia: </p>
                         </div>
-                        <div class="col-sm-12 superheroData " id="ironData" style="background-color:red">
-                            <h2>iron!</h2>
-                            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-                            <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+                        <div class="col-sm-12 superheroData " id="invisibleData" >
+                            <h2 id="invisibleName">Nombre: </h2>
+							<p id="invisiblePowers">Poderes: </p>
+                            <p id="invisibleHistory">Historia: </p>
                         </div>
-                        <div class="col-sm-12 superheroData " id="thorData" style="background-color:red">
-                            <h2>thor!</h2>
-                            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-                            <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+                        <div class="col-sm-12 superheroData " id="torchData" >
+                            <h2 id="torchName">Nombre: </h2>
+							<p id="torchPowers">Poderes: </p>
+                            <p id="torchHistory">Historia: </p>
+                        </div>
+						<div class="col-sm-12 superheroData " id="thingData" >
+                            <h2 id="thingName">Nombre: </h2>
+							<p id="thingPowers">Poderes: </p>
+                            <p id="thingHistory">Historia: </p>
                         </div>
                     </div>
                 </div>

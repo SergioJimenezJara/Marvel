@@ -11,7 +11,8 @@
 	background-position: center;
 }
 #barranavegacion{
-	background-color: red;
+    color: white;
+	background-color: rgb(14, 20, 87);
 }
 #logo {
 	height: 30px;
@@ -22,7 +23,7 @@
 }
 #central {
 	color: white;
-	background-color:rgba(255, 0, 0, 0.555);
+	background-color:rgba(14, 20, 87, 0.88);
 	
 }
 
@@ -43,6 +44,11 @@
 /*
 	Superheros data
 */
+
+.superName{
+    height: 80px;
+}
+
 .superheroData{
     display:none;
 }
@@ -51,13 +57,19 @@
     text-align: center;
     border: 2px solid #000000;
     padding-bottom: 30px; 
-    background-color:#666666;
+    background-color:#484848;
 }
 
+/*
+No funciona despues de hacer el primer click
 .superhero:hover{
-     background-color:red;
+     background-color:#484848;
      border: 50px;
   
+}*/
+
+.superheroData{
+	background-color:#666666;
 }
 
 
