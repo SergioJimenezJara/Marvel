@@ -1,3 +1,5 @@
+
+
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
@@ -8,8 +10,9 @@
 	background-size: cover;
 	background-position: center;
 }
+
 #barranavegacion{
-    color: white;
+        color: white;
 	background-color: rgb(14, 20, 87);
 }
 #logo {
@@ -17,7 +20,8 @@
 	width: 30px;
 }
 #drop {
-	background-color: red;
+	background-color: rgb(14, 20, 87);
+        color: white;
 }
 #central {
 	color: white;
@@ -42,11 +46,6 @@
 /*
 	Superheros data
 */
-
-.superName{
-    height: 80px;
-}
-
 .superheroData{
     display:none;
 }
@@ -55,22 +54,39 @@
     text-align: center;
     border: 2px solid #000000;
     padding-bottom: 30px; 
-    background-color:#484848;
+    background-color:#666666;
 }
 
-/*
-No funciona despues de hacer el primer click
 .superhero:hover{
-     background-color:#484848;
+     /*background-color:#484848;*/
      border: 50px;
   
-}*/
+}
 
 .superheroData{
 	background-color:#666666;
 }
 
+/*
+ Footer
+*/
 
+.footer{
+        position: relative;
+        background-color: rgb(14, 20, 87);
+        color: white;
+        font-size: 20px;
+        text-align: center;
+       
+}
+
+div li{
+    display: inline-block; 
+}
+
+div ul{
+    top: 20px;
+}
 
 
 
