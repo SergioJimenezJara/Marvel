@@ -1,0 +1,37 @@
+body {
+	background-image: url(../img/marvel1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+	
+}
+
+#logo {
+	height: 30px;
+}
+
+#drop {
+	background-color: #F26344;
+}
+
+#central {
+	color: white;
+	top: 70px;
+}
+
+#imagen {
+	top: 100px;
+	height: 300px;
+}
+.img1 {
+	background-image: url(../img/capitanamerica.jpg);
+	height: 100px;
+}
+.img2 {
+	background-image: url(../img/imagesthor.jpg);
+	height: 100px;
+}
+.img3 {
+	background-image: url(../img/Iron-Man-marvel-comics.jpg);
+	height: 100px;
+}
