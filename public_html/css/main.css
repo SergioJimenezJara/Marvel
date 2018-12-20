@@ -3,9 +3,94 @@
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+   
+   body {
+	background-image: url(../IMG/marvel1AMP.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
 
+#barranavegacion{
+        color: white;
+	background-color: rgb(14, 20, 87);
+}
+#logo {
+	height: 30px;
+	width: 30px;
+}
+#drop {
+	background-color: rgb(14, 20, 87);
+        color: white;
+}
+#central {
+	color: white;
+	background-color:rgba(14, 20, 87, 0.88);
+	
+}
 
+#imagen {
+	top: 100px;
+	height: 300px;
+}
 
+.my-6{
+	margin-top:90px;
+	margin-bottom:90px;
+}
+.img1 {
+	background-image: url(../img/capitanamerica.jpg);
+	height: 100px;
+}
+
+/*
+	Superheros data
+*/
+.superheroData{
+    display:none;
+}
+
+.superhero {
+    text-align: center;
+    border: 2px solid #000000;
+    padding-bottom: 30px; 
+    background-color:#666666;
+}
+
+.superhero:hover{
+     /*background-color:#484848;*/
+     border: 50px;
+  
+}
+
+.superheroData{
+	background-color:#666666;
+}
+
+/*
+ Footer
+*/
+
+.footer{
+        position: relative;
+        background-color: rgb(14, 20, 87);
+        color: white;
+        font-size: 20px;
+        text-align: center;
+       
+}
+
+.titleHero{
+        height: 100px;
+}
+
+div li{
+    display: inline-block; 
+}
+
+div ul{
+    top: 20px;
+}
 
 
 
