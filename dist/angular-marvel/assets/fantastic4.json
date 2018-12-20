@@ -1,0 +1,24 @@
+[{
+  "tag":"fantastic",
+  "heroName": "Mr Fantastico",
+  "history": "(Reed Richards), un genio científico, puede estirar, girar, y re-formar su cuerpo a proporciones inhumanas. El Sr. Fantástico sirve como la figura paterna del grupo, y es 'apropiadamente pragmático, autoritario, y aburrido'. Richards se culpa a sí mismo por la fracasada misión espacial, sobre todo por la manera en la que el incidente transformó al piloto Ben Grimm.",
+  "powers": ["Estirarse", "Cambiar de forma", "Velocidad", "Acrobata"]
+},
+{
+  "tag":"invisible",
+  "heroName": "Mujer invisible",
+  "history": "(Susan Storm), la novia de Reed Richards (y finalmente esposa) tiene la habilidad de doblar y manipular la luz para volverse invisible. Ella más tarde desarrolla la capacidad de generar campos de fuerza, los cuales utiliza para una variedad de efectos defensivos y ofensivos.",
+  "powers": ["Invisibilidad", "Genio", "Campo de fuerza", "Seducir"]
+},
+{
+  "tag":"torch",
+  "heroName": "Antorcha humana",
+  "history": "(Johnny Storm), el hermano menor de Sue Storm, posee la habilidad de controlar el fuego, permitiéndole proyectar fuego desde su cuerpo, así como el poder de volar. Este personaje está basado libremente en otro personaje de la Antorcha Humana publicado por la predecesora de Marvel, Timely Comics, en los 40s, un androide que podía rodearse en llamas. Lee dijo que cuando conceptualizó al personaje, 'pensé que era una pena que ya no tuviéramos a la Antorcha Humana, y esta era una buena oportunidad para traerlo de vuelta'. A diferencia de los compinches adolescentes que lo precedieron, la Antorcha Humana en las historias originales era 'un típico adolescente — descarado, rebelde, y afectuosamente desagradable.' Johnny Storm fue asesinado en el arco argumental de 2011 'Three', antes de ser traído de vuelta y reunirse a los reformados 4 Fantásticos.",
+  "powers": ["Control del fuego", "Proyectil humano", "Vuelo", "Lanzar bolas de fuego"]
+},
+{
+  "tag":"thing",
+  "heroName": "La cosa",
+  "history": "también conocido como la Cosa o la Mole (Ben Grimm), compañero de la universidad y el mejor amigo de Reed Richards, ha sido transformado en un monstruoso y descarpado humanoide con piel naranja de roca y superfuerza. Thing frecuentemente está lleno de ira, autodesprecio y lástima sobre su nueva existencia. Él sirve como 'una figura de tío, un amigo a largo plazo de la familia con una personalidad brusca de Brooklyn, mal carácter, y un cáustico sentido del humor'. En la sinopsis original que Lee le dio a Kirby, Thing fue concebido como 'el fuerte', pero con el paso de los años, el personaje se ha convertido en 'el miembro más amable del grupo: honesto, directo, y libre de pretensiones.'",
+  "powers": ["Fuerza sobrehumana", "Piel de piedra", "Resistencia sobrehumana"]
+}]
